@@ -520,19 +520,16 @@
           <div class="contact-right reveal">
             <div class="contact-right-header">// send_message.js</div>
 
-            <!-- 1. Changed this div to a <form> tag with your Formspree URL -->
             <form
               action="https://formspree.io/f/mojzjwrd"
               method="POST"
               class="contact-right-body"
               autocomplete="off"
             >
-              <!-- 2. Added the invisible anti-spam field -->
               <input type="text" name="_gotcha" style="display: none" />
 
               <div class="form-field">
                 <label>Name <span>*</span></label>
-                <!-- 3. Added name="name" and required -->
                 <input
                   type="text"
                   name="name"
@@ -543,7 +540,6 @@
 
               <div class="form-field">
                 <label>Email <span>*</span></label>
-                <!-- 4. Added name="email" and required -->
                 <input
                   type="email"
                   name="email"
@@ -554,7 +550,6 @@
 
               <div class="form-field">
                 <label>Message <span>*</span></label>
-                <!-- 5. Added name="message" and required -->
                 <textarea
                   name="message"
                   placeholder="What's on your mind?"
@@ -562,10 +557,8 @@
                 ></textarea>
               </div>
 
-              <!-- 6. Changed to type="submit" and REMOVED id="submitBtn" -->
               <button type="submit" class="form-submit">▶ Send Message</button>
             </form>
-            <!-- 7. Changed closing tag to </form> -->
           </div>
         </div>
       </div>
